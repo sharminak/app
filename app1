@@ -72,6 +72,10 @@ rf  = RandomForestClassifier()
 rf.fit(x_train, y_train)
 user_result = rf.predict(user_data)
 
+SVM=SVC(kernel='rbf')
+SVM.fit(x_train,y_train)
+user_result = rf.predict(user_data)
+
 
 
 # VISUALISATIONS
